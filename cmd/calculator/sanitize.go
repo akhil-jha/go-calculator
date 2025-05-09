@@ -7,12 +7,7 @@ import (
 )
 
 func isDigit(s string) bool {
-	for _, i := range s {
-		if unicode.IsDigit(i) {
-			return true
-		}
-	}
-	return false
+	return unicode.IsDigit(rune(s[0]))
 }
 
 func SanitizeArg(args []string) (string, int, int) {
