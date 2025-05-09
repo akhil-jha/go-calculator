@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"local.example.com/go-calculator/go_usage"
+	"github.com/akhil-jha/go-calculato/go_usage"
 )
 
 func main() {
