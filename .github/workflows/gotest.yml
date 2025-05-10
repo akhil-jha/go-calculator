@@ -1,7 +1,5 @@
 name: GoTest-1.24.2
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 jobs:
